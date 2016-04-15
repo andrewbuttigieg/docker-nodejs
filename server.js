@@ -12,5 +12,6 @@ app.get('/', function (req, res) {
 });
 
 app.listen(PORT);
+app.maxConnections = 2;
 console.log('Running on http://localhost:' + PORT);
 
